@@ -2,6 +2,10 @@
 
 A very simple java hello world archetype for the featureflow interactive getting started tutiorial
 
+To create an app with this archetype, run the following 'almost-as-long-as-the-codebase' command:
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeGroupId=io.featureflow -DarchetypeArtifactId=featureflow-tutorial -DarchetypeVersion=1.0-SNAPSHOT -DinteractiveMode=false
+
 ## About featureflow
 * Featureflow is an application feature management tool that allows you to safely and effectively release, manage and evaluate your applications features across multiple applications, platforms and languages.
     * Dark / Silent Release with features turned off
