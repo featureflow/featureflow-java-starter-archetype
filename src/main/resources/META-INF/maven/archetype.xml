@@ -8,12 +8,5 @@
     <resources>
         <resource>.gitignore</resource>
         <resource>README.md</resource>
-        <resource>src/main/resources/logback.xml</resource>
     </resources>
-    <testSources>
-        <source>src/test/java/AppTest.java</source>
-    </testSources>
-    <testResources>
-        <resource>src/test/resources/logback-test.xml</resource>
-    </testResources>
 </archetype>

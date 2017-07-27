@@ -4,7 +4,7 @@
  
   <groupId>io.featureflow</groupId>
   <artifactId>featureflow-tutorial</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
   <properties>
     <nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
