@@ -1,13 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
- 
+
   <groupId>io.featureflow</groupId>
   <artifactId>featureflow-tutorial</artifactId>
   <version>1.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
+  <name>Featureflow Java Tutorial</name>
+   <description>A quickstart archtype for the in app featureflow java tutorial</description>
+   <url>https://featureflow.io</url>
   <properties>
     <nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
+    <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
+    <maven-javadoc-plugin.version>2.9.1</maven-javadoc-plugin.version>
+    <maven-gpg-plugin.version>1.5</maven-gpg-plugin.version>
   </properties>
   <licenses>
     <license>
